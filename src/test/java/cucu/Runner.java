@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="@rerun/failscenario.txt",glue="cucu",
-plugin={"json:C:\\Users\\training_c2a.05.01\\workspace\\cucu\\","rerun:rerun/failedscenario.txt.json"})
+plugin={"json:target/cucumber.json"})
 
 
 
