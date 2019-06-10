@@ -1,0 +1,571 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29589434131,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "users open testmeapp",
+            "match": {
+              "location": "Mno.users_open_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3095652556,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username as \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Mno.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3102989939,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters password as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Mno.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304589265,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks Login button",
+            "match": {
+              "location": "Mno.user_clicks_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027myInputautocomplete-list\u0027]/div[2]\"}\n  (Session info: chrome\u003d75.0.3770.80)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027CDC2-D-CFHSXJ2\u0027, ip: \u002710.236.114.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\TRAINI~1.01\\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1989}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.80, webStorageEnabled: true}\nSession ID: 555899ac1f3bf862f8733148770b6d8d\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027myInputautocomplete-list\u0027]/div[2]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat cucu.Mno.verify_login_success(Mno.java:51)\r\n\tat ✽.verify login success(fold/folder.feature:11)\r\n",
+              "duration": 20129952060,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "verify login success",
+            "match": {
+              "location": "Mno.verify_login_success()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9945,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "close testmeapp",
+            "match": {
+              "location": "Mno.close_testmeapp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "Description: Registered user can use login credentials to get logged into Testmeapp\nuser name - lalitha\npassword - password123",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "fold/folder.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Login with multiple data",
+        "description": "",
+        "id": "login-function;login-with-multiple-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20326625792,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester opening testmeapp",
+            "match": {
+              "location": "Folder1.tester_opening_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18220177609,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Tester enter username as \"lalitha\" And password as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Folder1.tester_enter_username_as_And_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9378083709,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click ok",
+            "match": {
+              "location": "Folder1.click_ok()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027myInputautocomplete-list\u0027]/div[2]\"}\n  (Session info: chrome\u003d75.0.3770.80)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027CDC2-D-CFHSXJ2\u0027, ip: \u002710.236.114.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\TRAINI~1.01\\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:2022}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.80, webStorageEnabled: true}\nSession ID: 36e18e83b2d63937f963b47380530e05\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027myInputautocomplete-list\u0027]/div[2]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat cucu.Folder1.verify_login_page_result(Folder1.java:44)\r\n\tat ✽.Verify login page result(fold/folder1.feature:8)\r\n",
+              "duration": 20062603218,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify login page result",
+            "match": {
+              "location": "Folder1.verify_login_page_result()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login function",
+    "description": "",
+    "id": "login-function",
+    "keyword": "Feature",
+    "uri": "fold/folder1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "search for laptops",
+        "description": "",
+        "id": "test-search-functionality;search-for-laptops",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14873272000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open testmeapplication",
+            "match": {
+              "location": "Search.open_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9142139968,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"Hand bag\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand bag\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Search.user_enters(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9360834188,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click enter",
+            "match": {
+              "location": "Search.user_clicks_enter()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "search for travelkit",
+        "description": "",
+        "id": "test-search-functionality;search-for-travelkit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16015995507,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "open testmeapplication",
+            "match": {
+              "location": "Search.open_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9117279099,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter \"laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"laptop\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Search.user_enters(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9286972425,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click enter",
+            "match": {
+              "location": "Search.user_clicks_enter()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test search functionality",
+    "description": "",
+    "id": "test-search-functionality",
+    "keyword": "Feature",
+    "uri": "fold/folder2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 240601,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "testme displays welcome message",
+            "match": {
+              "location": "Folder3.testme_displays_welcome_message()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "login",
+        "description": "",
+        "id": "test-background-keyword;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20063363198,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user performs login operation",
+            "match": {
+              "location": "Folder3.user_performs_login_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3091677820,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters user name as \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Folder3.user_enters_user_name_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3108304022,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "When user enters password as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Folder3.when_user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 124472,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "testme displays welcome message",
+            "match": {
+              "location": "Folder3.testme_displays_welcome_message()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "search function",
+        "description": "",
+        "id": "test-background-keyword;search-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat cucu.Folder3.user_searching_for_product_available_in_cart(Folder3.java:47)\r\n\tat ✽.user searching for product available in cart(fold/folder3.feature:13)\r\n",
+              "duration": 661814,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user searching for product available in cart",
+            "match": {
+              "location": "Folder3.user_searching_for_product_available_in_cart()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 108110,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "testme displays welcome message",
+            "match": {
+              "location": "Folder3.testme_displays_welcome_message()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Cart",
+        "description": "",
+        "id": "test-background-keyword;cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85975,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user validating the cart",
+            "match": {
+              "location": "Folder3.user_validating_the_cart()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 95599,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "testme displays welcome message",
+            "match": {
+              "location": "Folder3.testme_displays_welcome_message()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "proceed to payment",
+        "description": "",
+        "id": "test-background-keyword;proceed-to-payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76672,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user performs payment",
+            "match": {
+              "location": "Folder3.user_performs_payment()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 94316,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "testme displays welcome message",
+            "match": {
+              "location": "Folder3.testme_displays_welcome_message()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Logout",
+        "description": "",
+        "id": "test-background-keyword;logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75388,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user performs logout",
+            "match": {
+              "location": "Folder3.user_performs_logout()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "test background keyword",
+    "description": "",
+    "id": "test-background-keyword",
+    "keyword": "Feature",
+    "uri": "fold/folder3.feature",
+    "tags": []
+  }
+]

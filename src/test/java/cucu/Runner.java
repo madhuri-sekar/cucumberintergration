@@ -6,8 +6,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="@rerun/failscenario.txt",glue="cucu",
-plugin={"json:target/cucumber.json"})
+@CucumberOptions(features="fold",glue="cucu",
+plugin="json:target/cucumber.json")
 
 
 
